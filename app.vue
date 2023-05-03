@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <!-- <NuxtWelcome /> -->
     <header>
       <b-navbar type="dark" fixed="top">
@@ -10,7 +10,7 @@
     </header>
     <main>
       <div class="maintext">
-          <p>In making...</p>
+          <p>Portfolio in making...</p>
       </div>
         
     </main>
@@ -49,6 +49,7 @@ header, footer {
 }
 
 .maintext {
+  height:100%;
   padding: 25% 50% 25% 50%;
   position: relative;
 }
