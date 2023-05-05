@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "@types/node": "^18",
-    "nuxt": "^3.4.3"
+    "nuxt": "^3.4.3",
+    "vite-svg-loader": "^4.0.0"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.0",

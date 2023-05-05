@@ -24,7 +24,8 @@
               data-size="large"
               aria-label="Star banyspy on GitHub"
             >
-              <span>GitHub</span>
+            <githublogo/>
+              <span> GitHub</span>
             </a>
           </div>
         </b-col>
@@ -33,8 +34,9 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import "bootstrap/dist/css/bootstrap.css";
+import githublogo from "./static/iconmonstr-github-1.svg";
 </script>
 
 <style>

@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import svgLoader from 'vite-svg-loader'
 export default({
     vue: {  
         compilerOptions: {
@@ -9,6 +10,11 @@ export default({
       title: 'Pisit Portfolio',
       link: [
         { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
+      ],
+    },
+    vite: {
+      plugins: [
+        svgLoader({}),
       ],
     },
 })
