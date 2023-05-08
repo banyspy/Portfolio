@@ -1,3 +1,28 @@
+// only add `router.base = '/<repository_name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+const gaTags = process.env.DEPLOY_ENV === 'GH_PAGES' ? [
+  {
+    hid: 'gtm-script1',
+    src: 'https://www.googletagmanager.com/gtag/js?id=G-WWZYYWN8W7',
+    defer: true
+  },
+  {
+    hid: 'gtm-script2',
+    innerHTML: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-WWZYYWN8W7');
+    `,
+    type: 'text/javascript',
+    charset: 'utf-8'
+  },
+  {
+    async: true,
+    src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7536040795321095'
+  }
+] : []
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import svgLoader from 'vite-svg-loader'
 export default({
