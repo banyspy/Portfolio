@@ -3,15 +3,13 @@
     <!-- <NuxtWelcome /> @change="ChangeLang($event)-->
     <header>
       <nav class="navbar">
-        <div display="inline">
-          <span class="leftnav text-white">{{ ui[uiLang].Name }} {{ ui[uiLang].Surname }}</span>
-          
-            <select class="rightnav" @change="ChangeLang($event)" v-model="uiLang">
+          <span class="leftnav">{{ ui[uiLang].Name }} {{ ui[uiLang].Surname }}</span>
+          <div class="rightnav">
+            <select @change="ChangeLang($event)" v-model="uiLang">
               <option value="th">TH</option>
               <option value="en">EN</option>
             </select>
-          
-        </div>
+          </div>
       </nav>
     </header>
     <main>
@@ -77,25 +75,31 @@ header, footer {
 }
 
 .navbar {
-  position:fixed; /* fixing the position takes it out of html flow - knows
-                   nothing about where to locate itself except by browser
-                   coordinates */
-  left:0;           /* top left corner should start at leftmost spot */
-  top:0;            /* top left corner should start at topmost spot */
-  z-index:200;  /* high z index so other content scrolls underneath */
+  position:sticky;
+  position: -webkit-sticky;
+  display:flex;
+  left:0;           
+  top:0;           
+  z-index:200;
 }
 
 .leftnav {
   flex:50%;
-  position: absolute;
+  display:flex;
+  
   left: 2rem; 
+  color: white;
+  align-items: center;
+  justify-content: left;
 }
 
 .rightnav {
   flex:50%;
-  position: absolute;
-  top: 0.2rem;
+  display:flex;
+  
   right: 0.5rem;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .maintext {

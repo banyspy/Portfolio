@@ -54,4 +54,17 @@ export default({
         }
       }
     },
+
+    // Axios module configuration: https://go.nuxtjs.dev/config-axios
+    axios: {},
+
+    // Build Configuration: https://go.nuxtjs.dev/config-build
+    build: {
+    },
+
+    // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
+    ssr: false,
+
+    // Target: https://go.nuxtjs.dev/config-target
+    target: 'static',
 })
