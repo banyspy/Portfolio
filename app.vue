@@ -1,6 +1,4 @@
 <template>
-  <link href="http://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" rel="stylesheet"/>
-  <link href="http://unpkg.com/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <div id="app">
     <!-- <NuxtWelcome /> @change="ChangeLang($event)-->
     <header>
