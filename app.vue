@@ -86,7 +86,6 @@ header, footer {
 .leftnav {
   flex:50%;
   display:flex;
-  
   left: 2rem; 
   color: white;
   align-items: center;
@@ -96,7 +95,6 @@ header, footer {
 .rightnav {
   flex:50%;
   display:flex;
-  
   right: 0.5rem;
   align-items: center;
   justify-content: flex-end;
