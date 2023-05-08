@@ -1,16 +1,24 @@
 <template>
+  <link href="http://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" rel="stylesheet"/>
+  <link href="http://unpkg.com/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <div id="app">
-    <!-- <NuxtWelcome /> -->
+    <!-- <NuxtWelcome /> @change="ChangeLang($event)-->
     <header>
-      <b-navbar type="dark" fixed="top">
-        <div class="text-center text-white mx-auto">
-          <span>Pisit Akarateerapisal</span>
+      <nav class="navbar">
+        <div display="inline">
+          <span class="leftnav text-white">{{ ui[uiLang].Name }} {{ ui[uiLang].Surname }}</span>
+          
+            <select class="rightnav" @change="ChangeLang($event)" v-model="uiLang">
+              <option value="th">TH</option>
+              <option value="en">EN</option>
+            </select>
+          
         </div>
-      </b-navbar>
+      </nav>
     </header>
     <main>
       <div class="maintext">
-          <p>Portfolio in making...</p>
+          <p>{{ ui[uiLang].MainText }}</p>
       </div>
         
     </main>
@@ -39,15 +47,57 @@ import "bootstrap/dist/css/bootstrap.css";
 import githublogo from "./static/iconmonstr-github-1.svg";
 </script>
 
+<script>
+import ui from "./static/lang.ui.json";
+export default {
+  data() {
+    return {
+      uiLang:'th',
+      ui,
+    }
+  },
+  methods:{
+    ChangeLang(event){
+      this.uiLang = event.target.value;
+    },
+  },
+}
+
+
+</script>
+
 <style>
+
 
 header, footer {
   font-family: 'en', 'zh';
   font-size: 1.5rem;
   line-height: 1.2rem;
   padding-top:1rem;
-  padding-bottom:1rem;
+  padding-bottom:2rem;
   background-color: #2f2f2f;
+}
+
+.navbar {
+  position:fixed; /* fixing the position takes it out of html flow - knows
+                   nothing about where to locate itself except by browser
+                   coordinates */
+  left:0;           /* top left corner should start at leftmost spot */
+  top:0;            /* top left corner should start at topmost spot */
+  z-index:200;  /* high z index so other content scrolls underneath */
+}
+
+.leftnav {
+  flex:50%;
+  position: absolute;
+  left: 2rem; 
+}
+
+.rightnav {
+  flex:50%;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.5rem;
 }
 
 .maintext {

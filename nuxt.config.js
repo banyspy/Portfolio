@@ -3,7 +3,14 @@ import svgLoader from 'vite-svg-loader'
 export default({
     vue: {  
         compilerOptions: {
-          isCustomElement: (tag) => ['b-navbar','b-col','b-row','inline-svg'].includes(tag),
+          isCustomElement: (tag) => ['b-navbar',
+          'b-col',
+          'b-row',
+          'b-navbar-nav',
+          'b-nav-item-dropdown',
+          'b-dropdown-item value',
+          'b-form-select',
+          'inline-svg'].includes(tag),
         }
     },
     head: {
@@ -16,5 +23,10 @@ export default({
       plugins: [
         svgLoader({}),
       ],
+      server:{
+        fs:{
+          strict:false
+        }
+      }
     },
 })
