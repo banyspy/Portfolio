@@ -3,7 +3,8 @@
     <!-- <NuxtWelcome /> @change="ChangeLang($event)-->
     <header>
       <nav class="navbar">
-          <span class="leftnav">{{ ui[uiLang].Name }} {{ ui[uiLang].Surname }}</span>
+          <div class="leftnav">
+          <span >{{ ui[uiLang].Name }} {{ ui[uiLang].Surname }}</span></div>
           <div class="rightnav">
             <select @change="ChangeLang($event)" v-model="uiLang">
               <option value="th">TH</option>
@@ -67,37 +68,42 @@ export default {
 
 header, footer {
   font-family: 'en', 'zh';
-  font-size: 1.5rem;
-  line-height: 1.2rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   padding-top:1rem;
   padding-bottom:2rem;
   background-color: #2f2f2f;
 }
 
 .navbar {
-  position:sticky;
-  position: -webkit-sticky;
+  position:fixed;
   display:flex;
   left:0;           
   top:0;           
   z-index:200;
+  justify-content: space-between;
 }
 
 .leftnav {
-  flex:50%;
+  position: fixed;
+  width:50%;
   display:flex;
+  top:0.75rem;
   left: 2rem; 
   color: white;
   align-items: center;
-  justify-content: left;
+  justify-content: flex-start;
+  margin:0;
 }
 
 .rightnav {
-  flex:50%;
-  display:flex;
-  right: 0.5rem;
-  align-items: center;
+  position: fixed;
+  width: 50%;
+  top:0.75rem;
+  display: flex;
   justify-content: flex-end;
+  right: 5rem;
+  align-items: center;
 }
 
 .maintext {
