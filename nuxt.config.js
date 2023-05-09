@@ -70,7 +70,18 @@ export default({
 
     // Target: https://go.nuxtjs.dev/config-target
     target: 'static',
+    router: {
+        base: '/Portfolio/'
+    },
 
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     //ssr: false,
+
+    // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+    buildModules: [
+    // https://go.nuxtjs.dev/eslint
+      '@nuxtjs/eslint-module',
+
+      'nuxt-font-loader',
+    ],
 })
