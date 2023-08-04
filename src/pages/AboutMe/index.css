@@ -1,0 +1,53 @@
+msg-wrapper{
+    white-space: pre-wrap;
+}
+
+#PDFButton{
+    display: inline-flex; 
+    padding-bottom: 0.5rem; 
+    padding-top: 0.5rem;
+    padding-right: 1.5rem; 
+    padding-left: 1.5rem;
+    color: #ffffff; 
+    background-color: #10B981; 
+    line-height: 1.75rem; 
+    font-size: 1.125rem;
+    border-width: 0; 
+    border-radius: 0.25rem;
+
+    margin-left:1rem;
+    margin-right: 1rem;
+    text-decoration:none;
+}
+#PDFButton:hover {
+    background-color: #059669; 
+}
+
+#box{
+    width:60%
+}
+
+#PDFButtonBox{
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    margin-bottom:10%;
+}
+
+@media only screen and (max-width: 760px) {
+    #box{
+        width:90%
+    }
+
+    #PDFButton{
+        margin-bottom:10%;
+    }
+
+    #PDFButtonBox{
+        margin:auto;
+        display:block;
+        text-align: center;
+        margin-bottom:0%;
+    }
+}
+

@@ -1,0 +1,17 @@
+#PhoneBorder{
+    display: inline-flex; 
+    padding-bottom: 0.5rem; 
+    padding-top: 0.5rem;
+    padding-right: 0.5rem; 
+    padding-left: 0.5rem;
+    color: #ffffff; 
+    /*background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,255,124,1) 100%);*/
+    line-height: 1.75rem; 
+    font-size: 1.125rem;
+    border-style:solid;
+    border-width: thin; 
+    border-radius: 0.25rem; 
+    border-color:rgb(6, 245, 6);
+    vertical-align: -0.25rem;
+}

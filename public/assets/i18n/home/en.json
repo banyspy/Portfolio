@@ -1,0 +1,17 @@
+{
+	"hello": "Hello, My name is Bank. I love challenge and solving problem.",
+	"AboutMe":"About Me",
+	"AboutMe2":"I'm a computer engineer who is passionate in learning various thing. I have competed in math and programming competition in the past, and it always amaze me with how many amazing people are out there. It fire me up to continue learn, and contribute.",
+	"LearnMe":"Learn more about me",
+	"Skill":"Skill",
+	"Education&Experience":"Education & Experience",
+	"Skills":[
+		"C#",
+    	"C",
+    	"React",
+    	"Javascript",
+    	"CSS",
+    	"Version Control System",
+    	"English Literacy"
+	]
+}

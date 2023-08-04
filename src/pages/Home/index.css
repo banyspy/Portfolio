@@ -1,0 +1,63 @@
+
+
+#Home{
+    height:100%
+}
+
+#about{
+    margin:auto;
+    
+    
+}
+
+#AboutMe{
+    display: inline-flex; 
+    padding-bottom: 0.5rem; 
+    padding-top: 0.5rem;
+    padding-right: 1.5rem; 
+    padding-left: 1.5rem;
+    color: #ffffff; 
+    background-color: #10B981; 
+    line-height: 1.75rem; 
+    font-size: 1.125rem;
+    border-width: 0; 
+    border-radius: 0.25rem; 
+}
+
+#AboutMe:hover {
+    background-color: #059669; 
+}
+
+#Skill{
+    display: inline-flex; 
+    padding-bottom: 0.5rem; 
+    padding-top: 0.5rem;
+    padding-right: 1.5rem; 
+    padding-left: 1.5rem;
+    color: #ffffff; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,255,124,1) 100%);
+    line-height: 1.75rem; 
+    font-size: 1.125rem;
+    border-width: 0; 
+    border-radius: 0.25rem; 
+}
+
+svg{
+    display:inline-block;
+    height:1.75em;
+    line-height:1.75em;
+    /* just for vertical alignment as svg don't have descenders like fonts */
+    vertical-align:-0.2em;
+}
+
+#informationbox{
+    width:60%;
+}
+
+@media only screen and (max-width: 760px) {
+    #informationbox{
+        width:90%;
+    }
+}
+
