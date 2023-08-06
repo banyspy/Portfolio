@@ -1,3 +1,24 @@
 {
-    "Experience":"ประสบการณ์"
+    "Experience":"ประสบการณ์",
+    "Here is experience that i ever had":"นี่คือประสบการณ์ที่ผมมี",
+    "Game control with voice":"เกมควบคุมด้วยเสียง",
+    "The premise of project is a game that can be controlled by player's voice.":"ภาพรวมอย่างง่ายของโปรเจ็คคือเกมที่ควบคุมด้วยเสียงผู้เล่น",
+    "The game is made in unity engine and has voice recognition system by google called \"Google speech recognition\".":"เกมนี้สร้างด้วยเกมเอ็นจินต์ยูนิตี้และระบบการแปลเสียงของ Google ที่เรียกว่า \"Google Speech Recognition\"",
+    "Simple Website":"เว็บไซต์อย่างง่าย",
+    "Mostly a website that made to show information to viewer with no backend because there is no need to.":"ส่วนใหญ่จะเป็นเว็บไซต์อย่างง่ายที่ใช้แสดงข้อมูลแก่ผู้ชมโดยไม่มี Backend หากไม่มีความจำเป็น",
+    "Since I like to also watch what I create in mobile too, I made it with responsivity in mind.":"เนื่องจากผมชอบที่จะดูสิ่งที่สร้างในโทรศัพท์ด้วย ผมจึงสร้างด้วยการรองรับหน้าจอที่แตกต่างอยู่เสมอ",
+    "The most obvious example would be this very website.":"ตัวอย่างโปรเจ็คที่ง่ายที่สุดก็คือเว็บไซต์นี้",
+    "Mod game":"ม็อดเกม",
+    "Admitedly, this look like not so serious topic, but modifiying or create new thing for the existing project can help improve problem solving problem too depending on the project.":
+    "ยอมรับว่านี่ไม่ใช่หัวข้อที่ฟังดูจริงจังเท่าหัวข้ออื่น แต่การเปลี่ยนหรือสร้างสิ่งใหม่สำหรับโปรเจ็คที่มีอยู่แล้วสามารถช่วยพัฒนาทักษะการแก้ปัญหาด้วยขึ้นอยู่กับตัวโปรเจ็ค",
+    "Pull request to other repository that has game data and contribute.":"Pull Request ไปยัง Repository ที่เก็บโค้ดหรือข้อมูลของเกมและสนับสนุนในส่วนของเรา",
+    "Other Category":"หัวข้ออื่น",
+    "Not relevant to the techy stuff. but may worth mentioning":"ไม่เกี่ยวกับอะไรที่มัน Techy แต่ก็อาจเหมาะที่จะพูดถึง",
+    "Sports":"กีฬา",
+    "I have play some physical sport, i.e. Tabletennis and Basketball. Although I'm not that good at it, It give me joy and help me exercise.":
+    "ผมเคยเล่นกีฬาที่ต้องออกแรง เช่น เทเบิลเทนนิส หรือ บาสเก็ตบอล ถึงแม้ว่าผมจะไม่ได้เล่นเก่งขนาดนั้น มันก็ทำให้ผมรู้สึกสนุกและได้ออกกำลังกาย",
+    "I also play a more \"Technical\" sport, i.e. chess. It give completely different experience compare to the former category that has more physical demand. It bring joy in another way.":
+    "ผมก็เคยเล่นกีฬาที่มีความ \"Technical\" มากกว่าด้วยเช่นกัน เช่น หมากรุก มันให้ประสบการณ์ที่ต่างออกไปจากกีฬาแบบก่อนที่เน้นการออกแรงกาย มันให้ความสนุกคนละแบบ",
+    "I actually competing in chess during year 1 in university. It's not that serious competitve event, just a university event. Win 2 Lose 1. Lot of sloppy play, but it's ok, we play for fun ;)":
+    "ผมเคยแข่งขันหมากรุกตอนอยู่ปี 1 ในมหาวิทยาลัย ไม่ใช่การแข่งขันที่จริงจังมาก เป็นงานมหาวิทยาลัย ชนะ 2 แพ้ 1 เล่นพลาดมาก แต่ก็ไม่เป็นไรเราเล่นเพื่อความสนุก ;)"
 }
