@@ -22,15 +22,15 @@ const Header = () => {
 					<h4 style={{lineHeight:"1em"}}>{t("Contact")}</h4>
 					<div style={{lineHeight:"7em"}}>
 						<div id="PhoneBorder">
-							<Phone width="2em" style={{verticalAlign:"-0.5rem"}} /> 0887949459
+							<Phone width="2em" style={{verticalAlign:"-0.5rem"}} /> 0936654953
 						</div>
 						<a href="https://www.google.com/intl/th/gmail/about/" target='_blank' rel="noopener">
             			    <Gmail width="3em" />
             			</a>
-						<a href="https://fb.com" target='_blank' rel="noopener">
+						<a href="https://th-th.facebook.com/banyspy/" target='_blank' rel="noopener">
             			    <Facebook width="3em" viewBox="0 0 40 40"/>
             			</a>
-						<a href="https://github.com" target='_blank' rel="noopener" >
+						<a href="https://github.com/banyspy" target='_blank' rel="noopener" >
             			    <Github width="3em" viewBox="0 0 98 96"/>
             			</a>
 					</div>

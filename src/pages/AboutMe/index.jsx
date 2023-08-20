@@ -27,11 +27,11 @@ const AboutMe = () => {
 			<div id="PDFButtonBox">
 				<a href={{/*Portfolio*/}} id="PDFButton" target="_blank"
             	    rel="noreferrer">
-            	    Open PDF TH
+            	    {t("Open PDF TH")}
             	</a>
 				<a href={{/*Portfolio*/}} id="PDFButton" target="_blank"
             	    rel="noreferrer">
-            	    Open PDF ENG
+            	    {t("Open PDF ENG")}
             	</a>
 			</div>
 			<p></p>

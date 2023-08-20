@@ -1,8 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./index.css";
 import React from "react";
-import { Link } from "react-router-dom";
-//import {skills} from "./data.js";
 import { ReactComponent as CheckIcon } from "../../svg/check.svg";
 
 const Home = () => {
@@ -19,22 +17,25 @@ const Home = () => {
             {t("The premise of project is a game that can be controlled by player's voice.")}
             {t("The game is made in unity engine and has voice recognition system by google called \"Google speech recognition\".")}
             <br/>some picture<br/>
-            Skill require:<br/>
-            Unity engine and how to integrate (Google) API with unity engine<br/>
-            C# language and how to write working code efficiently, especially inside unity engine environment<br/>
-            Designing<br/>
-			<br/>Link to project<br/>
-            <br/>
+			<br/>
+				<div id="PDFButtonBox">
+					<a href="https://github.com/banyspy/SpeechRecognitionGame" id="PDFButton" target="_blank"
+            	    rel="noreferrer" className="d-inline-flex justify-content-center">
+            	    {t("Link to project")}
+            		</a>
+				</div>
 			<h4>2. {t("Simple Website")}</h4>
 			<br/>
 			{t("Mostly a website that made to show information to viewer with no backend because there is no need to.")}<br/>
 			{t("Since I like to also watch what I create in mobile too, I made it with responsivity in mind.")}<br/>
-			{t("The most obvious example would be this very website.")}
-			Skill require:<br/>
-			Javascript and CSS<br/>
-			Framework and other tools that help speed up the process (Most familiar with React) <br/>
-			How to deploy website<br/>
-			<br/>
+			{t("The most obvious example would be this very website. Using React to create website, then deploy to Github to store source code, then use Netlify to host website.")}
+			<br/><br/>
+			<div id="PDFButtonBox">
+					<a href="https://github.com/banyspy/Portfolio" id="PDFButton" target="_blank"
+            	    rel="noreferrer" className="d-inline-flex justify-content-center">
+            	    {t("Link to source code")}
+            		</a>
+				</div>
             <h4>3. {t("Mod game")}</h4>
 			<br/>
 			{t("Admitedly, this look like not so serious topic, but modifiying or create new thing for the existing project can help improve problem solving problem too depending on the project.")}
