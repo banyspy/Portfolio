@@ -16,17 +16,21 @@ const Header = () => {
 	return (
 		<nav className="pt-4 col-md-12 text-white text-center" style={{background:"black"}}>
 			<div className="row ">
-				<div className="col-md-6 pb-5"><h4>{t("Pisit Akarateerapisal")}</h4><br/>
-				{t("Made with react 17.0.2")}</div>
-            	<div className="col-md-6" >
-					<h4 style={{lineHeight:"1em"}}>{t("Contact")}</h4>
-					<div style={{lineHeight:"7em"}}>
+				<div className="col-md-5 pb-5">
+					<h4>{t("Pisit Akarateerapisal")}</h4><br/>
+					{t("Made with react 17.0.2")}
+				</div>
+            	<div className="col-md-7" >
+					<h4>{t("Contact")}</h4>
+					<div style={{lineHeight:"5em"}}>	
 						<div id="PhoneBorder">
 							<Phone width="2em" style={{verticalAlign:"-0.5rem"}} /> 0936654953
 						</div>
-						<a href="https://www.google.com/intl/th/gmail/about/" target='_blank' rel="noopener">
-            			    <Gmail width="3em" />
-            			</a>
+						<div id="GmailBorder" className="ml-4 mr-2">
+							<Gmail width="2em" style={{verticalAlign:"-0.5rem"}} /> banyspy@gmail.com
+						</div>
+					</div>
+					<div style={{lineHeight:"3em"}} className="mb-3">	
 						<a href="https://th-th.facebook.com/banyspy/" target='_blank' rel="noopener">
             			    <Facebook width="3em" viewBox="0 0 40 40"/>
             			</a>

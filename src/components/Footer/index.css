@@ -1,4 +1,4 @@
-#PhoneBorder{
+#PhoneBorder, #GmailBorder{
     display: inline-flex; 
     padding-bottom: 0.5rem; 
     padding-top: 0.5rem;
@@ -14,4 +14,8 @@
     border-radius: 0.25rem; 
     border-color:rgb(6, 245, 6);
     vertical-align: -0.25rem;
+}
+
+#GmailBorder{
+    border-color:rgb(255, 65, 65);
 }

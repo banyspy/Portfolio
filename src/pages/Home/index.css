@@ -1,7 +1,9 @@
 
 
 #Home{
-    height:100%
+    height:100%;
+    background-color: #b6ffc0;
+    background-image: url('../../img/bg-texture.png');
 }
 
 #about{

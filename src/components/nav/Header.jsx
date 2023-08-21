@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
+import Select, { components } from "react-select";
 import { ReactComponent as FlagTH } from "../../svg/FlagTH.svg";
 import { ReactComponent as FlagEN } from "../../svg/FlagEN.svg";
 
