@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css"
+import PortfolioTH from "../../Portfolio/PortfolioTH.pdf"
+import PortfolioEN from "../../Portfolio/PortfolioEN.pdf"
 
 const AboutMe = () => {
 	const {t,i18n, ready} = useTranslation(["aboutme"]);
@@ -25,11 +27,11 @@ const AboutMe = () => {
 			<h2 className="text-center">{t("Portfolio")}</h2>
 			<br/>
 			<div id="PDFButtonBox">
-				<a href={{/*Portfolio*/}} id="PDFButton" target="_blank"
+				<a href={PortfolioTH} id="PDFButton" target="_blank"
             	    rel="noreferrer">
             	    {t("Open PDF TH")}
             	</a>
-				<a href={{/*Portfolio*/}} id="PDFButton" target="_blank"
+				<a href={PortfolioEN} id="PDFButton" target="_blank"
             	    rel="noreferrer">
             	    {t("Open PDF ENG")}
             	</a>
