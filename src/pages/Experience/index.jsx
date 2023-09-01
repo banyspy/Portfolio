@@ -9,6 +9,7 @@ const Home = () => {
 	if (!ready) return "loading translations...";
 
 	return (
+		<div id="soothBackground">
 		<div className="container mt-5 pt-5" id="box">
 			<h1 className="text-center">{t("Experience")}</h1>
 			<div className="py-4">{t("Here is experience that i ever had")}</div>
@@ -17,11 +18,11 @@ const Home = () => {
             {t("The premise of project is a game that can be controlled by player's voice.")}
             {t("The game is made in unity engine and has voice recognition system by google called \"Google speech recognition\".")}
             <br/>some picture<br/>
-			<br/>
-				<div id="PDFButtonBox">
-					<a href="https://github.com/banyspy/SpeechRecognitionGame" id="PDFButton" target="_blank"
+			
+				<div id="LinkButtonBox">
+					<a href="https://github.com/banyspy/SpeechRecognitionGame" id="LinkButton" target="_blank"
             	    rel="noreferrer" className="d-inline-flex justify-content-center">
-            	    {t("Link to project")}
+            	    {t("Link to Project")}
             		</a>
 				</div>
 			<h4>2. {t("Simple Website")}</h4>
@@ -29,18 +30,25 @@ const Home = () => {
 			{t("Mostly a website that made to show information to viewer with no backend because there is no need to.")}<br/>
 			{t("Since I like to also watch what I create in mobile too, I made it with responsivity in mind.")}<br/>
 			{t("The most obvious example would be this very website. Using React to create website, then deploy to Github to store source code, then use Netlify to host website.")}
-			<br/><br/>
-			<div id="PDFButtonBox">
-					<a href="https://github.com/banyspy/Portfolio" id="PDFButton" target="_blank"
+			
+			<div id="LinkButtonBox">
+					<a href="https://github.com/banyspy/Portfolio" id="LinkButton" target="_blank"
             	    rel="noreferrer" className="d-inline-flex justify-content-center">
-            	    {t("Link to source code")}
+            	    {t("Link to Source Code")}
             		</a>
 				</div>
             <h4>3. {t("Mod game")}</h4>
 			<br/>
 			{t("Admitedly, this look like not so serious topic, but modifiying or create new thing for the existing project can help improve problem solving problem too depending on the project.")}
 			{t("Pull request to other repository that has game data and contribute.")}
-			<div className="py-4"></div>
+			
+			<div id="LinkButtonBox">
+					<a href="https://github.com/banyspy/EdoproCustomCards" id="LinkButton" target="_blank"
+            	    rel="noreferrer" className="d-inline-flex justify-content-center">
+            	    {t("Link to Project")}
+            		</a>
+				</div>
+			<div className="pb-4"></div>
 			<h2>{("Other Category")}</h2>
 			{t("Not relevant to the techy stuff. but may worth mentioning")}<br/><br/>
 			<h4>{t("Sports")}</h4><br/>
@@ -48,6 +56,7 @@ const Home = () => {
 			{t("I also play a more \"Technical\" sport, i.e. chess. It give completely different experience compare to the former category that has more physical demand. It bring joy in another way.")}<br/>
 			{t("I actually competing in chess during year 1 in university. It's not that serious competitve event, just a university event. Win 2 Lose 1. Lot of sloppy play, but it's ok, we play for fun ;)")}<br/>
 			<div className="py-4"></div>
+		</div>
 		</div>
 	);
 };

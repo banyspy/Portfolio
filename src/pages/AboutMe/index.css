@@ -2,6 +2,11 @@ msg-wrapper{
     white-space: pre-wrap;
 }
 
+#soothBackground{
+    background-color:#d3ffe4;
+    background-image: url('../../img/bg-texture.png');
+}
+
 #PDFButton{
     display: inline-flex; 
     padding-bottom: 0.5rem; 
@@ -24,14 +29,15 @@ msg-wrapper{
 }
 
 #box{
-    width:60%
+    width:60%;
+    background-color: rgba(255,255,255,0.75);
 }
 
 #PDFButtonBox{
     margin:auto;
     display:flex;
     justify-content: center;
-    margin-bottom:10%;
+    padding-bottom:10%
 }
 
 @media only screen and (max-width: 760px) {

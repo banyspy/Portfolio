@@ -7,6 +7,7 @@ import i18next from "i18next";
 
 import {ReactComponent as Facebook} from "../../svg/Facebook.svg"
 import {ReactComponent as Github} from "../../svg/GithubWhite.svg";
+import {ReactComponent as Line} from "../../svg/Line.svg";
 import {ReactComponent as Phone} from "../../svg/Phone.svg";
 import {ReactComponent as Gmail} from "../../svg/Gmail.svg";
 
@@ -36,6 +37,9 @@ const Header = () => {
             			</a>
 						<a href="https://github.com/banyspy" target='_blank' rel="noopener" >
             			    <Github width="3em" viewBox="0 0 98 96"/>
+            			</a>
+						<a href="https://line.me/ti/p/wpDVklB3xn" target='_blank' rel="noopener" >
+            			    <Line width="3em" viewBox="0 0 320 320"/>
             			</a>
 					</div>
 				</div>

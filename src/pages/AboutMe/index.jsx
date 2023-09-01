@@ -11,6 +11,7 @@ const AboutMe = () => {
 	//const items = t('AboutMeTexts').split('\n');
 	const items = t("AboutMeTexts", { returnObjects: true });
 	return (
+		<div id="soothBackground">
 		<div className="container mt-5 pt-5" id="box">
 			<h1 className="text-center">{t("AboutMe")}</h1>
 			<br/>
@@ -36,7 +37,7 @@ const AboutMe = () => {
             	    {t("Open PDF ENG")}
             	</a>
 			</div>
-			<p></p>
+		</div>
 		</div>
 	);
 };

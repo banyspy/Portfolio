@@ -32,7 +32,7 @@ const Home = () => {
 						width={"240"}
 						//object-fit="contain"
             			alt="hero"
-            			src="./2.png"
+            			src="./PisitPhotoRealTransparent.png"
           				/>
         			</div>
 				</div>
