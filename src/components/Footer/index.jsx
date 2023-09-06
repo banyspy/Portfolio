@@ -28,7 +28,7 @@ const Header = () => {
 							<Phone width="2em" style={{verticalAlign:"-0.5rem"}} /> 0936654953
 						</div>
 						<div id="GmailBorder" className="ml-4 mr-2">
-							<Gmail width="2em" style={{verticalAlign:"-0.5rem"}} /> banyspy@gmail.com
+							<Gmail width="2em" style={{verticalAlign:"-0.5rem"}} /> pisit.akarateerapisal@gmail.com
 						</div>
 					</div>
 					<div style={{lineHeight:"3em"}} className="mb-3">	
