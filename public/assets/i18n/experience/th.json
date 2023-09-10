@@ -4,8 +4,8 @@
     "Game control with voice":"เกมควบคุมด้วยเสียง",
     "The premise of project is a game that can be controlled by player's voice.":"ภาพรวมอย่างง่ายของโปรเจ็คคือเกมที่ควบคุมด้วยเสียงผู้เล่น",
     "The game is made in unity engine and has voice recognition system by google called \"Google speech recognition\".":"เกมนี้สร้างด้วยเกมเอ็นจินต์ยูนิตี้และระบบการแปลเสียงของ Google ที่เรียกว่า \"Google Speech Recognition\"",
-    "Simple Website":"เว็บไซต์อย่างง่าย",
-    "Mostly a website that made to show information to viewer with no backend because there is no need to.":"ส่วนใหญ่จะเป็นเว็บไซต์อย่างง่ายที่ใช้แสดงข้อมูลแก่ผู้ชมโดยไม่มี Backend หากไม่มีความจำเป็น",
+    "Website":"เว็บไซต์",
+    "Mostly a website that made to show information to viewer.":"ส่วนใหญ่จะเป็นเว็บไซต์ที่ใช้แสดงข้อมูลแก่ผู้ชม",
     "Since I like to also watch what I create in mobile too, I made it with responsivity in mind.":"เนื่องจากผมชอบที่จะดูสิ่งที่สร้างในโทรศัพท์ด้วย ผมจึงสร้างด้วยการรองรับหน้าจอที่แตกต่างอยู่เสมอ",
     "The most obvious example would be this very website. Using React to create website, then deploy to Github to store source code, then use Netlify to host website.":
     "ตัวอย่างโปรเจ็คที่ง่ายที่สุดก็คือเว็บไซต์นี้ ใช้ React ในการสร้างเว็บไซต์แล้วอัพโหลดโค้ดลง Github แล้วจึงใช้ Netlify ในการ Host website",

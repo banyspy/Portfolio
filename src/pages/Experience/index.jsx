@@ -17,7 +17,7 @@ const Home = () => {
             <br/>
             {t("The premise of project is a game that can be controlled by player's voice.")}
             {t("The game is made in unity engine and has voice recognition system by google called \"Google speech recognition\".")}
-            <br/>some picture<br/>
+            
 			
 				<div id="LinkButtonBox">
 					<a href="https://github.com/banyspy/SpeechRecognitionGame" id="LinkButton" target="_blank"
@@ -25,9 +25,9 @@ const Home = () => {
             	    {t("Link to Project")}
             		</a>
 				</div>
-			<h4>2. {t("Simple Website")}</h4>
+			<h4>2. {t("Website")}</h4>
 			<br/>
-			{t("Mostly a website that made to show information to viewer with no backend because there is no need to.")}<br/>
+			{t("Mostly a website that made to show information to viewer.")}<br/>
 			{t("Since I like to also watch what I create in mobile too, I made it with responsivity in mind.")}<br/>
 			{t("The most obvious example would be this very website. Using React to create website, then deploy to Github to store source code, then use Netlify to host website.")}
 			
