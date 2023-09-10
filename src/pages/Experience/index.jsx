@@ -49,7 +49,7 @@ const Home = () => {
             		</a>
 				</div>
 			<div className="pb-4"></div>
-			<h2>{("Other Category")}</h2>
+			<h2>{t("Other Category")}</h2>
 			{t("Not relevant to the techy stuff. but may worth mentioning")}<br/><br/>
 			<h4>{t("Sports")}</h4><br/>
 			{t("I have play some physical sport, i.e. Tabletennis and Basketball. Although I'm not that good at it, It give me joy and help me exercise.")}<br/>

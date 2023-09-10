@@ -2,6 +2,9 @@ import { useTranslation } from "react-i18next";
 import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css"
+import GradeTH from "../../Portfolio/GradeTH.pdf"
+import GradeEN from "../../Portfolio/GradeEN.pdf"
+import GradCert from "../../Portfolio/GraduationCertificate.pdf"
 import PortfolioTH from "../../Portfolio/PortfolioTH.pdf"
 import PortfolioEN from "../../Portfolio/PortfolioEN.pdf"
 
@@ -25,6 +28,22 @@ const AboutMe = () => {
 			<br/>
 			<p>{t("Graduated from PSU University, Faculty of Engineer. Computer Engineer")}</p>
 			<br/>
+			<div id="PDFButtonBox">
+				<a href={GradCert} id="PDFButton" target="_blank"
+            	    rel="noreferrer">
+            	    {t("Open Graduation Certification")}
+            	</a>
+			</div>
+			<div id="PDFButtonBox">
+				<a href={GradeTH} id="PDFButton" target="_blank"
+            	    rel="noreferrer">
+            	    {t("Open Transcript TH")}
+            	</a>
+				<a href={GradeEN} id="PDFButton" target="_blank"
+            	    rel="noreferrer">
+            	    {t("Open Transcript ENG")}
+            	</a>
+			</div>
 			<h2 className="text-center">{t("Portfolio")}</h2>
 			<br/>
 			<div id="PDFButtonBox">
